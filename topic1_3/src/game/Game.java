@@ -1,14 +1,14 @@
 package game;
 
-import car.Car;
+import racecars.RaceCar;
 
 public class Game {
     public static void main(String[] args) {
-        Car car = new Car();
+    	RaceCar racecar = new RaceCar();
 
-        car.start();
-        car.run(50);
-        car.stop();
-        car.restart();
+    	racecar.start();
+    	racecar.run(50);
+    	racecar.stop();
+    	racecar.restart();
     }
 }
